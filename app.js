@@ -4,7 +4,7 @@ const createError = require("http-errors");
 
 // DB connection
 mongoose.connect(
-  "mongodb+srv://dbMariana:test1234@cluster0.u2n6q.mongodb.net/toDoListDatabase?retryWrites=true&w=majority",
+  "myMongoDbString",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
